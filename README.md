@@ -96,11 +96,11 @@ iterations -- reaches 100, then c is in the Mandelbrot set and we can exit the f
 outputting “true”:
   </li>
   <img width="152" alt="Screen Shot 2023-07-05 at 5 22 37 PM" src="https://github.com/johnbloch/Mandelbrot/assets/8367698/cbf39753-13b5-4aeb-a670-c22e2aabd00b">
-<em>
+
   
   *I write “most likely” because we can actually never be certain, for some values of c, if c is in
 the Mandelbrot set. Who’s to say that $z_n$ won’t diverge to infinity after googol iterations? 100
-iterations is safe, but if we want to zoom in a lot, we should check more than that.</em>
+iterations is safe, but if we want to zoom in a lot, we should check more than that.
 <li>
   (Recursive Step) If this last part of the function is reached, this means that the program
 has yet to decide whether or not $z_n$ will diverge to infinity. So, we calculate the next term
