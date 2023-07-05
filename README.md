@@ -111,7 +111,7 @@ in the sequence, and feed that value right back into the mandelbrot() function.
     </li>
     <img width="460" alt="Screen Shot 2023-07-05 at 5 26 34 PM" src="https://github.com/johnbloch/Mandelbrot/assets/8367698/25a29933-419b-4e2e-9dfe-0b7f94464548">
     <li>
-      Next, we add c to $(z_n)^22$ using the complexAdd() function:
+      Next, we add c to $(z_n)^2$ using the complexAdd() function:
     </li>
     <img width="555" alt="Screen Shot 2023-07-05 at 5 27 19 PM" src="https://github.com/johnbloch/Mandelbrot/assets/8367698/f0224d14-b2ce-41aa-bde3-5accb9249e70">
     <li>
