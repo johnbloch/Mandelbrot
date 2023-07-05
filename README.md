@@ -173,7 +173,7 @@ closer to the Mandelbrot Set take many more iterations than 40 to break out of t
 **I could’ve chosen red, green, or blue (or even a combo of them), but I chose red because I
 thought it looked cool.
 
-When I implemented this color scheme into my [code](https://github.com/johnbloch/Mandelbrot/tree/52bd6352edd439ac90028897bd7c9680cbbd8d1e/Mandelbrot_2023_07_05_21_06_19), I got a really cool result:
+When I implemented this color scheme into my [code](https://github.com/johnbloch/Mandelbrot/tree/bb9702f22a3911cf3656acc1db36d8807b159e71/Mandelbrot_2023_07_05_21_06_19), I got a really cool result:
 
 <img width="609" alt="Screen Shot 2023-07-05 at 5 33 54 PM" src="https://github.com/johnbloch/Mandelbrot/assets/8367698/0a61b7c2-71a4-4275-aa35-2b7dbe45ab37">
 
@@ -231,7 +231,7 @@ a c-value in the “main” bulb yields a sequence with a period of 1, whereas o
 different periods.
 
 I wanted to see these different periods, so, inspired by this [Numberphile video](https://www.youtube.com/watch?v=FFftmWSzgmk), I added in a
-[feature](https://github.com/johnbloch/Mandelbrot/tree/52bd6352edd439ac90028897bd7c9680cbbd8d1e/VisualizeOrbits_2023_07_05_21_08_47) to my code that allows me to see the long term behavior of each point on the Mandelbrot
+[feature](https://github.com/johnbloch/Mandelbrot/tree/bb9702f22a3911cf3656acc1db36d8807b159e71/VisualizeOrbits_2023_07_05_21_08_47) to my code that allows me to see the long term behavior of each point on the Mandelbrot
 set. Wherever my mouse goes, my program calculates the first 500 terms of the sequence for the
 c-value corresponding to my mouse’s location on the complex number plane. Then, it deletes the
 first 400 terms, and plots the 400-500th terms as white dots on the complex plane. This way, I
@@ -355,7 +355,7 @@ if, when we plug that number into the sequence for $z_0$, the sequence stays bou
   </li>
 </ul>
 
-Because the distinction is so simple, making my [program](https://github.com/johnbloch/Mandelbrot/tree/52bd6352edd439ac90028897bd7c9680cbbd8d1e/JULIA_2023_07_05_21_09_52) generate Julia Sets only involved
+Because the distinction is so simple, making my [program](https://github.com/johnbloch/Mandelbrot/tree/bb9702f22a3911cf3656acc1db36d8807b159e71/JULIA_2023_07_05_21_09_52) generate Julia Sets only involved
 changing a couple lines of code.
 
 Here are some cool Julia Sets I was able to generate:
